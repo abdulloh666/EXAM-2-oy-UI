@@ -1,0 +1,52 @@
+@import 'js-class';
+@import 'animation';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body{
+    background: #4499fe !important;
+    display: flex;
+    justify-content: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        h1{
+            text-align: center !important;
+        }
+        .form-div form{
+            display: flex;
+            gap: 10px;
+            .main-input-div{
+                gap: 100px;
+            }
+            input{
+                border-radius: 5px;
+                border: none;
+                padding: 5px 0;
+                text-indent: 10px;
+            }
+            .lg-input{
+                width: 395px !important;
+            }
+            .btn-div{
+                height: 76px;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .result-div{
+            width: 80%;
+            height: 500px;
+            margin-top: 20px;
+        }
+    }
+}

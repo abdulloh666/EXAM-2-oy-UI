@@ -1,0 +1,158 @@
+.example {
+  background: #fff;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  -webkit-animation: start 0.8s;
+          animation: start 0.8s;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-not {
+  display: none;
+}
+
+.photo-div {
+  width: 25%;
+  height: 100%;
+}
+
+.info-div {
+  width: 50%;
+  height: 100%;
+}
+
+.btn-divv {
+  width: 25%;
+  height: 100%;
+}
+
+.photo-style {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.info-style {
+  padding: 15px;
+}
+.info-style p {
+  line-height: 21px;
+}
+
+.btn-style {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-style__major {
+  width: 50%;
+  height: 60px;
+  margin-bottom: 10px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px !important;
+}
+
+.btn3-style {
+  background: #C9F4A7;
+}
+
+@-webkit-keyframes start {
+  0% {
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes start {
+  0% {
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+}
+
+body {
+  background: #4499fe !important;
+  display: flex;
+  justify-content: center;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+body .container h1 {
+  text-align: center !important;
+}
+body .container .form-div form {
+  display: flex;
+  gap: 10px;
+}
+body .container .form-div form .main-input-div {
+  gap: 100px;
+}
+body .container .form-div form input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px 0;
+  text-indent: 10px;
+}
+body .container .form-div form .lg-input {
+  width: 395px !important;
+}
+body .container .form-div form .btn-div {
+  height: 76px;
+  display: flex;
+  align-items: center;
+}
+body .container .result-div {
+  width: 80%;
+  height: 500px;
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */

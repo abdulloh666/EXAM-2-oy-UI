@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/scss/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Menu</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-white">Menu</h1>
+        <div class="form-div mt-5">
+            <form id="form" class="form ">
+
+                <div class="main-input-div">
+
+                    <div class="input-div-top mb-2">
+                        <input type="text" placeholder="Taom nomi" id="food-name" autocomplete="off" required>
+                        <input type="number" placeholder="Taom narxi" id="food-cost" autocomplete="off" required>
+                        <input type="text" placeholder="Taom rasm (link)" id="food-photo" autocomplete="off" required>
+                    </div>
+
+                    <div class="input-div-buttom">
+                        <input type="text" placeholder="Taom oshpazi" id="food-cook" autocomplete="off" required>
+                        <input type="text" placeholder="Taom tayyorlangan restoran" class="lg-input" id="food-cafe"
+                            autocomplete="off" required>
+                    </div>
+
+                </div>
+
+                <div class="btn-div ms-3">
+                    <button class="btn btn-success">Add</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="result-div" id="result-div"></div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./assets/js/app.js"></script>
+
+
+</body>
+
+</html>
